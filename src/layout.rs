@@ -18,6 +18,6 @@ pub fn get_instructions<'a>() -> Line<'a> {
 
 pub fn get_default_style() -> Style {
     Style::default()
-    .fg(Color::White)
+    .fg(Color::Black)
     .bg(Color::Rgb(0, 240, 255))
 }
